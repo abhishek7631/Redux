@@ -10,6 +10,7 @@ export default function AddForm() {
     e.preventDefault();
     console.log(task);
     dispatch(addTodo(task));
+    setTask("");
   }
   return (
     <>
